@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0d1b2a;
+    color: white;
+    padding: 15px 30px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #4158d0, #c850c0);
+    color: white;
+}
+
+.profile {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* Buttons */
+.buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Sections */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about {
+    background: #f1f5f9;
+}
+
+.skills-section {
+    background: #e0f7fa;
+}
+
+.projects-section {
+    background: #fff3e0;
+}
+
+.contact-section {
+    background: #ede7f6;
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: lightgray;
+    margin: 10px;
+    padding: 20px;
+    width: 120px;
+    border-radius: 10px;
+}
+
+/* Projects */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 15px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.project-card img {
+    width: 100%;
+}
+.project-card button{
+    background: red;        
+    color: white;
+    padding: 10px 20px;    
+    border: none;
+    border-radius: 8px;     
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Hover */
+.project-card button:hover {
+    background: darkred;
+}
+/* Contact */
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+form button {
+    width: 50%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background: #1b263b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .nav-links {
+       
+        align-items: center;
+    }
+
+    .skills,
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
